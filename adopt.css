@@ -1,0 +1,105 @@
+body {
+    
+  background-image: url(https://drive.google.com/uc?id=1s5oVxECNPX5cMtgvmWJ5fE8Fa5UYYnqx);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  
+    
+  }
+  
+  
+
+  nav {
+      background-color: lightblue;
+      border: 1px solid lightgray;
+      z-index: 1;
+    }
+  
+    .navbar {
+        position: fixed;
+        width: 100%;
+        padding: -5px;
+        
+    }
+  
+  .navbar-nav {
+        margin:0 auto;
+    }
+  
+    
+  
+  .was-validated {
+    text-align: center;
+    padding-top: 90px;
+    
+    text-align: center;
+    
+  } 
+
+  
+
+  .form-select {
+      display: inline;
+      color: lightslategray;
+      width: 200px;
+      background-color: transparent;
+      margin: 2px; 
+
+
+  }
+
+  .form-control {
+    display: inline;
+    width: 50%;
+    margin-top: 30px;
+    
+
+      background-color: transparent;
+      border: 2px solid gray;
+      
+  }
+  /*.textarea.form-control {
+    min-height: calc(15em + .75rem + 2px); 
+  }
+*/
+  .form-control.is-invalid, .was-validated .form-control:invalid {
+      border: 2px solid gray;
+      background-color: transparent;
+      
+  }
+
+  .form-select.is-invalid, .was-validated .form-select:invalid {
+    border: 2px solid gray;
+  }
+
+  .form-control.is-valid, .was-validated .form-control:valid {
+    border: 2px solid gray;
+    background-color: transparent;
+  }
+/* personal info */
+  .personal {
+      display: inline-block;
+      width: 90%;
+  }
+
+  .col-md-4 {
+      width: 100%;
+      margin-bottom: 20px;
+  }
+
+  .col-md-6 {
+    width: 100%;
+    
+  }
+
+  
+  .foot {
+    text-align: center; 
+    background-color: #CDF2FD;
+    overflow: hidden;
+    bottom: 0;
+    width: 100%;
+    margin-top: 200px;
+    
+}
