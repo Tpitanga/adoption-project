@@ -1,0 +1,131 @@
+body {
+    
+    background-image: url(https://drive.google.com/uc?id=1s5oVxECNPX5cMtgvmWJ5fE8Fa5UYYnqx);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
+      
+    }
+
+nav {
+    background-color: lightblue;
+    border: 1px solid lightgray;
+    z-index: 1;
+    
+  }
+
+  .navbar {
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 10;
+      
+  }
+
+.navbar-nav {
+      margin:0 auto;
+  }
+
+  .if-desktop {
+    margin-top: 75px;
+    padding: 0 20% 0 20%;
+  }
+  .info-gallery {
+      
+    
+    
+    
+    
+  }
+  /*
+.info-gallery {
+text-align: center;
+padding: 10% 40% 0 40%;
+
+
+}*/
+
+h1 {
+  text-align: center;
+  background-color: lightblue;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  
+
+}
+
+h6 {
+padding: 10px;
+text-align: center;
+
+}
+
+a .application-form {
+color: lightgray;
+
+}
+
+a:-webkit-any-link {
+text-decoration: none;
+}
+
+h6 .pawprint  {
+color: lightblue;
+
+
+}
+
+.carousel {
+    width: 40%;
+    margin: 0 auto;
+}
+img {
+    width: 50%;
+    
+}
+.carousel-caption {
+    color: white;
+    text-shadow: 0 2px 3px grey;
+    bottom: 2px;
+    font-weight: bold;
+    right: 20%;
+    
+    
+}
+
+.carousel-control-next, .carousel-control-prev {
+    color: darkgray;
+    width: 16%;
+    opacity: .3;
+    
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    visibility: hidden;
+}
+
+.foot {
+  text-align: center; 
+  background-color: #CDF2FD;
+  overflow: hidden;
+  bottom: 0;
+  width: 100%;
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 672px) {
+  .info-gallery {
+    text-align: center;
+    padding: 20% 5% 0 5%;
+  }
+.carousel {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.carousel-caption {
+    padding-top: 20%;
+    position: relative;
+}
+
+}
