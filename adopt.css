@@ -7,8 +7,6 @@ body {
   
     
   }
-  
-  
 
   nav {
       background-color: lightblue;
@@ -25,44 +23,36 @@ body {
   
   .navbar-nav {
         margin:0 auto;
-    }
-  
-    
+    } 
   
   .was-validated {
     text-align: center;
     padding-top: 90px;
-    
     text-align: center;
     
   } 
 
-  
-
   .form-select {
       display: inline;
       color: lightslategray;
-      width: 200px;
+      width: 250px;
       background-color: transparent;
       margin: 2px; 
-
-
   }
 
   .form-control {
-    display: inline;
-    width: 50%;
-    margin-top: 30px;
-    
-
-      background-color: transparent;
-      border: 2px solid gray;
+     display: inline;
+     width: 50%;
+     margin-top: 30px;
+     background-color: transparent;
+     border: 2px solid gray;
       
   }
-  /*.textarea.form-control {
-    min-height: calc(15em + .75rem + 2px); 
+
+textarea.form-control {
+     min-height: calc(10em + .75rem + 2px); 
   }
-*/
+ 
   .form-control.is-invalid, .was-validated .form-control:invalid {
       border: 2px solid gray;
       background-color: transparent;
@@ -70,14 +60,16 @@ body {
   }
 
   .form-select.is-invalid, .was-validated .form-select:invalid {
-    border: 2px solid gray;
+     border: 2px solid gray;
   }
 
   .form-control.is-valid, .was-validated .form-control:valid {
-    border: 2px solid gray;
-    background-color: transparent;
+     border: 2px solid gray;
+     background-color: transparent;
   }
+
 /* personal info */
+
   .personal {
       display: inline-block;
       width: 90%;
@@ -90,8 +82,10 @@ body {
 
   .col-md-6 {
     width: 100%;
-    
   }
+.col-12 {
+    padding-top: 90px;
+}
 
   
   .foot {
@@ -101,5 +95,40 @@ body {
     bottom: 0;
     width: 100%;
     margin-top: 200px;
+    
+}
+
+@media only screen and (max-width: 472px) {
+    
+    .form-select {
+        width: 80%;
+        
+    }
+
+    .personal .col-md-4 {
+        align-content: center;
+        width: 80%;
+        margin: 0 0 0 10%;
+    }
+    .form-control {
+        width: 100%;
+    }
+
+    /*.personal .placeholder {
+        min-height: calc(10em + .55rem + 2px);
+    }
+*/
+    select {
+        min-width: 10%;
+        width: auto;
+        
+    }
+
+    select:focus {
+        min-width: 10%;
+        width: auto;
+        
+    }
+
     
 }
