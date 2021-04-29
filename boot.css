@@ -80,9 +80,9 @@ nav {
     color: white;
     visibility: hidden;
     border-radius: 20px;
-    padding: 3px;
+    padding: 10px;
   
-    /* transition effect. not necessary */
+   
     transition: opacity .2s, visibility .2s;
   }
 
@@ -101,4 +101,37 @@ nav {
     padding-bottom: 15px;
     
     padding-top: 20px;
+}
+
+@media only screen and (max-width: 472px) {
+    .container {
+        width: 95%;
+        
+    }
+    .pics img {
+        max-width: 100%;
+        width: auto;
+        
+    }
+.pics {
+    max-width: 80%;
+    margin: 3px;
+    margin-left: 10px;
+    
+}
+.caption {
+    text-align: center;
+}
+.img-description {
+    position: relative;
+    background: none;
+    width: 100%;
+    height: auto;
+    visibility: visible;
+    color: black;
+}
+.col-md-6 {
+    margin: 0 0 0 0;
+}
+
 }
